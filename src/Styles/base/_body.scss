@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.container {
+    max-width: 91%;
+    margin: 0px auto;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: poppins !important;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins !important;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins ;  
+}
+.section{
+    max-width: 1920px;
+}

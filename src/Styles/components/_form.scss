@@ -1,0 +1,26 @@
+.form_wrapper{
+
+    .section{
+        background-color: #040B33;
+    }
+    .form{
+        max-width: 1238px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        hr{
+            height: 200px;
+            width: 5px;
+            background-color: red;
+            border: none;
+        }
+        h2{
+            max-width: 584px;
+            font-size: 60px;
+            text-align: center;
+            font-weight: normal !important;
+        }
+    }
+}

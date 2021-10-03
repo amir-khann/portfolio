@@ -1,0 +1,23 @@
+.btn{
+    color: white;
+    padding:10px 20px;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 22px;
+
+    @media (max-width: 599px) {
+        padding:3px 6px ;
+        border-radius: 18px;
+        font-size: 7px;
+    }
+
+    &.primary{
+        background-color: $secondary_color;
+    }
+
+    &.outline{
+        background-color: transparent;
+        border: 2px solid white; 
+    }
+    
+}

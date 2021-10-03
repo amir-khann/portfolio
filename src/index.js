@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './assets/Poppins/Poppins-Black.ttf'
+import "./Styles/styles.scss";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -1,0 +1,82 @@
+.client{
+    .section{
+        background-color: #040221;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        padding: 262px 0px;
+
+
+        .img_wrapper,.text_wrapper{
+            width: 48%;
+        }
+        .img_wrapper{
+            position: relative;
+
+
+            .map_img{
+                height: 394px;
+            }
+
+            img{
+                position: absolute;
+            }
+            .xl_img{
+                max-width: 20%;
+        
+            }
+            .one{
+                top: -20%;
+                right: 10%;
+                    
+            }
+            .two{
+                left: 35%;
+                bottom: -35%;
+            }
+            .lg_img{
+                width: 17%;
+            }
+            .three{
+                top: 0;
+                left: 10%;
+            }
+            .four{
+                right: 10%;
+                bottom: -10%;
+            }
+            .md_img{
+                width: 13%;
+                left: 40%;
+                bottom: 50%;
+            }
+          
+            .sm_img{
+                width: 10%;
+                left: 20%;
+                bottom: 25%;
+            }
+          
+        }
+        .text_wrapper{
+            position: relative;
+            p{
+                font-size: 30px;
+            }
+
+            img{
+                width: 41px;
+                height: 49px;
+                margin: 30px 0px;
+            }
+
+            .after{
+                position: absolute;
+                left: 40%;
+
+            }
+           
+        }
+    }
+}

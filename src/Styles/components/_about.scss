@@ -1,0 +1,90 @@
+.about{
+    .section{
+        background-color: #040221;
+        padding-top: 197px;
+        padding-bottom: 141px;
+        @media (max-width: 599px) {
+            padding-top: 0px;
+            padding-bottom: 44px;
+        }
+    }
+    .container{
+        display: flex;
+        color: white;
+        @media (max-width: 599px) {
+            flex-direction: column;
+        }
+
+        .content{
+            width: 50%;
+            padding-top: 125px;
+            @media (max-width: 599px) {
+                width: 100%;
+                padding-top: 40px;
+                
+            }
+
+            .head{
+                display: flex;
+                justify-content: space-between;
+                @media (max-width: 599px) {
+                    flex-direction: column;
+                }
+
+                div{
+                    
+                    
+                    h2{
+                        font-size: 60px;
+                        @media (max-width: 599px) {
+                            font-size: 20px;
+                        }
+                    }
+
+                }
+                .line{
+                    width: 35%;
+                    border-bottom: 3px solid red;
+                    margin-bottom: 40px;
+                }
+            }
+            .description{
+                
+                font-size: 19px;
+                padding-right: 84px;
+                @media (max-width: 599px) {
+                    padding-right: 20px;
+                    font-size: 9px;
+                    
+                }
+
+                p{
+                    margin-top: 77px;
+                    @media (max-width: 599px) {
+                        margin-top: 0px;
+                        
+                    }
+                }
+            }
+            .download_btn{
+                margin-top: 183px;
+                @media (max-width: 599px) {
+                    margin: 20px 0px;
+                }
+            }
+        }
+
+        .about_img{
+            display: flex;
+            width: 50%;
+            padding: 5%;
+            box-sizing: border-box;
+            background-color: #0E0C38;
+            @media (max-width: 599px) {
+                width: 100%;
+                
+            }
+
+        }
+    }
+}

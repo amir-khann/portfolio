@@ -1,0 +1,53 @@
+.portfolio_card{
+    width: 26%;
+    height: 510px; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 35px;
+    transition:  all .3s ease-in;
+    @media (max-width: 599px) {
+        width: 90%;  
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    &:hover{
+        transform: scaleY(1.1);
+        transform-origin:bottom;
+    }
+    
+    img{
+        height: 510px; 
+    }
+
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0; 
+        background-color: red;
+        opacity: 0;
+        transition:  all .3s ease-in;
+        &:hover{
+            display: block;
+            opacity: .8;
+        }
+
+        &_content{
+            position: absolute;
+            left: 10px;
+            bottom: 20px;
+            h2{
+                font-size: 44px;
+                max-width: 230px;
+            }
+         
+            p{
+                font-size: 25px;
+                margin-top: 17px;
+            }
+        }
+    }
+
+}

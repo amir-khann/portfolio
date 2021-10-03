@@ -1,0 +1,120 @@
+.hero_wrapper{
+    max-width: 1920px;
+    min-height: 1217px;
+    background-color: $primary_color;
+    z-index: 1;
+    position: relative;
+    color: white;
+    @media (max-width: 599px) {
+        height: 630px;
+    }
+
+    .top_img{
+       left: 26%;
+       position: absolute;
+       top: 0px;
+       max-width: 30%;
+       height: 263px;
+       z-index: -2;
+
+    }
+    .ellipse{ 
+        max-width: 20%;
+        height: 547px; 
+        position: absolute;
+        left: 0;
+        top: 371px;
+    }
+    .layer2{
+        max-width:10%;
+        height: 392px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        @media (max-width: 599px) {
+            height: 130px;
+            
+        }
+    }
+    .content_wrapper{
+        display: flex;
+        width: 100%;
+        padding-top: 45px;
+        @media (max-width: 599px) {
+            flex-direction: column;
+        }
+
+        .content,.hero_img{
+            flex-basis: 50%;
+        }
+        .hero_img{
+            max-width: 47%;
+            max-height: 1033px;
+            z-index: -3;
+            @media (max-width: 599px) {
+                height: 311px;
+            }
+        }
+        .content{
+            padding-top: 190px;
+            font-family: poppins;
+            @media (max-width: 599px) {
+                padding-top: 0px;
+            }
+
+            h2{
+                font-size: 41px;
+                @media (max-width: 599px) {
+                    font-size: 13px;
+                }
+            }
+            h1{
+                font-size: 150px;
+                line-height: 1;
+                @media (max-width: 599px) {
+                    font-size: 52px;
+                }
+            }
+            h3{
+                font-size: 30px;
+                margin-top: 48px;
+                @media (max-width: 599px) {
+                    font-size: 10px;
+                    margin-top: 12px;
+                }
+            }
+            p{
+                font-size: 26px;
+                @media (max-width: 599px) {
+                    font-size: 10px;
+                }
+                span{
+                    color: $secondary_color;
+                }
+            }
+            .socail_icons{
+                padding-top: 28px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 33px;
+                    @media (max-width: 599px) {
+                        width: 13px;
+                        height: 13px;
+                        margin-right: 11px;
+                    }
+                }
+            }
+            .btn_group{
+                padding-top: 70px;
+                @media (max-width: 599px) {
+                    padding-top: 23px;
+                }
+
+               .primary{
+                   margin-right: 26px;
+               }
+            }
+        }
+    }
+}
