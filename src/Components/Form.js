@@ -3,7 +3,7 @@ import Button from './Common/Button'
 const Form = () => {
     return (
         <div className="form_wrapper">
-           <div className="section">
+           <div className="section" id="contact">
                <div className="form">
                    <hr />
                    <h2>Let’s Make Something

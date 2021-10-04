@@ -5,7 +5,7 @@ import Button from './Common/Button'
 const About = () => {
     return (
         <div className="about">
-            <div className="section">
+            <div className="section" id="about">
                 <div className="container">
                     <div className="content">
                         <div className="head">

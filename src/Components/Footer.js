@@ -7,7 +7,7 @@ import pinterest from '../assets/images/pinterest.png'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="footer">
             <hr className="red_line"/>
             <h2>Portfolio</h2>
             <ul>

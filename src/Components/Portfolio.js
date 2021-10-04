@@ -19,7 +19,7 @@ const Portfolio = () => {
 
     return (
         <div className="portfolio">
-            <div className="section">
+            <div className="section" id="portfolio">
                 <div className="container">
                     <div className="portfolio_header">
                         <div className="links_wrapper">

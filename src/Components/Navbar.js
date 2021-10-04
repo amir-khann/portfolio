@@ -35,10 +35,10 @@ const Navbar = () => {
                     <a src="#"><img src={logo} className="logo"></img></a>
                 </div>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#"><Button  btnText="Get started" btnType="outline"/></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#footer"><Button  btnText="Get started" btnType="outline"/></a></li>
                 </ul>
             </nav>
 
