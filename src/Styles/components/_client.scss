@@ -8,8 +8,18 @@
         padding: 262px 0px;
 
 
+
+        @media (max-width: 599px) {
+            padding:40px 0px;
+            flex-direction: column;
+        }
+
+
         .img_wrapper,.text_wrapper{
             width: 48%;
+            @media (max-width: 599px) {
+                width: 100%;
+            }
         }
         .img_wrapper{
             position: relative;
@@ -17,7 +27,12 @@
 
             .map_img{
                 height: 394px;
+
+                @media (max-width: 599px) {
+                    height: 150px;
+                }
             }
+
 
             img{
                 position: absolute;

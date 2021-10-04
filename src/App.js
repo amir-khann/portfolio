@@ -2,6 +2,7 @@
 import About from './Components/About';
 import Capabilities from './Components/Capabilities';
 import Client from './Components/Client';
+import Footer from './Components/Footer';
 import Form from './Components/Form';
 import HeroWrapper from './Components/HeroWrapper';
 
@@ -17,6 +18,7 @@ function App() {
      <Capabilities />
      <Client />
      <Form />
+     <Footer />
     </div>
   );
 }
