@@ -12,12 +12,11 @@ const Capabilities = () => {
                         <CapabilitesCard />
                         <CapabilitesCard />
                         <CapabilitesCard />
-                    </div>   
-                    <div className="card_wrapper">
                         <CapabilitesCard />
                         <CapabilitesCard />
                         <CapabilitesCard />
                     </div>   
+                    
                 </div>
             </div>
              

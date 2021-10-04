@@ -67,9 +67,17 @@
         display: flex;
         justify-content: space-between;
         padding-top: 108px;
+        flex-wrap: wrap;
         @media (max-width: 599px) {
             flex-direction: column;   
         }
+
+        .portfolio_card, .overlay{
+            margin-bottom: 70px;
+
+        }
     }
+
+
     
 }

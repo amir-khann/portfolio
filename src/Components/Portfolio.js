@@ -37,12 +37,11 @@ const Portfolio = () => {
                         <Card  image={abad}/>
                         <Card image={shot}/>
                         <Card image={apri}/>
-                    </div>
-                    <div className="cards">
                         <Card  image={abad}/>
                         <Card image={shot}/>
                         <Card image={apri}/>
                     </div>
+                   
                 </div>
             </div>
         </div>
